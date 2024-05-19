@@ -1,0 +1,255 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #6b4208;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e6a10b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #dcc5c5;
+    text-decoration: none;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    padding: 5px;
+    border: none;
+}
+
+.search-box button {
+    background-color: #f39715;
+    color: #4f0909;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #9f500a;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.for-border {
+border:solid #4f4a3f;
+box-shadow:#4f4a3f ;
+}
+/* Hero section */
+.hero {
+    background-color: #f39c12;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    background-image: url(foodgif.gif);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.video-player {
+    position: relative;
+    display: inline-block;
+}
+
+.video-player img {
+    max-width: 100%;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Recipe videos section */
+.recipe-videos {
+    padding: 50px;
+    text-align: center;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border:solid #4f4a3f;
+    padding: 1px;
+}
+
+.video-card {
+    position: relative;
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.video-card img {
+    width: 200px;
+    height: 100px;
+}
+
+.video-card h3 {
+    margin-top: 10px;
+}
+
+.video-card .play-btn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #fff;
+    text-decoration-style: double;
+}
+.video-card {
+    border: 2px solid #4f4a3f; 
+    text-align: center;
+  }
+  
+  .video-card img {
+    display: block; 
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+  }
+.for-border {
+    position: relative;
+        border: 2px solid #4f4a3f;
+        padding: 20px;
+        border-style: inset;
+        width: 100%;
+        margin: auto;
+}
+
+.video-card {
+    position: relative;
+}
+.author-image,
+.welcome-content {
+    border: 2px solid #4f4a3f; 
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: -250px; 
+    background-color: #fff;
+    z-index: 1;
+    text-align: center;
+}
+.author-image img {
+    width: 200px;
+    height: 200px;
+}
+.welcome-content {
+    width: 200px; 
+    text-align: left; 
+}
+.newsletter {
+border:solid #4f4a3f;
+} 
+.for-border {
+    border: 2px solid #4f4a3f;
+    padding: 20px;
+    border-style: inset;
+    width: 100%;
+    margin: auto;
+}
+
+.recipe-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border:solid #4f4a3f;
+    padding: 1px;
+}
+
+.recipe-card {
+    position: relative;
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.recipe-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.recipe-card .play-btn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #272424;
+    text-decoration-style: double;
+}
+.recipe-card {
+    border: 2px solid #4f4a3f; 
+    text-align: center;
+}
+.recipe-videos {
+    border: 2px solid #ccc;
+    padding: 20px;
+    flex-basis: 48%;
+    box-sizing: border-box;
+}
+
+.popular-recipe {
+    border: 2px solid #ccc;
+    padding: 20px;
+    flex-basis: 48%;
+    box-sizing: border-box;
+    text-align: right;
+}
+.popular-recipe, h2 {
+    color: #9f500a;
+}
+.recipe-list img {
+    width: 200px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
